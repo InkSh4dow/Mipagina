@@ -1,68 +1,102 @@
-@font-face {
-  font-family: 'fuentecustom';
-  src: url('../fonts/rubik.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'fuentecustom';
+    src: url('../fonts/rubik.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-body {
-  font-family: 'fuentecustom', sans-serif;
-  background: #0F2027;
-  background: linear-gradient(90deg,rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(44, 83, 100, 1) 100%);
-}
+  body {
+    font-family: 'fuentecustom', sans-serif;
+    background: #0F2027;
+    background: linear-gradient(90deg,rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(44, 83, 100, 1) 100%);
+  }
 
-header {
-  background: url('https://images.unsplash.com/photo-1601979031925-59abdd309995') no-repeat center/cover;
-  height: 90vh;
-  color: #ea0000;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 3rem;
-}
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .rectangulo {
+    width: 275px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .rectangulo2 {
+    width: 370px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 20px;
+  }
 
-.btn {
-  background: linear-gradient(to right, rgb(60, 60, 60), rgb(160, 160, 160));
-  color: #74e811;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 2px;
+    border-radius: 50px;
+    flex-wrap: nowrap;
+    gap: -15px;
+    max-width: 1200px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 20px;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+  .imagen {
+    flex: 1;
+    min-width: 300px;
+    height: 350px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, rgba(15, 32, 39, 0.1), rgba(15, 32, 39, 1)),
+    url('../images/presentacion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.rectangulo {
-  width: 275px;
-  height: 50px;
-  background-color: #fdfdfd;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-}
+  .presentacion {
+    display: flex;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 900px;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .presentacion h1 {
+    font-size: 3em;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  .presentacion p {
+    font-size: 1.2em;
+    line-height: 1.1;
+    margin-bottom: 1px;
+    color: #BDC3C7;
+  }
 
-.rectangulo2 {
-  width: 370px;
-  height: 50px;
-  background-color: #fdfdfd;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-  gap: 20px;
-}
-
+  .btn {
+    background: linear-gradient(to right, rgb(60, 60, 60), rgb(160, 160, 160));
+    color: #74e811;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
