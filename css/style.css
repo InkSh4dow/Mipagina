@@ -89,12 +89,13 @@
   }
 
   .btn {
+
     display: inline-block;
-    background: linear-gradient(to right, rgb(60, 60, 60), rgb(160, 160, 160));
-    color: #74e811;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
