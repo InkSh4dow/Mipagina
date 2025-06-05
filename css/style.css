@@ -103,49 +103,51 @@
     text-align: center;
   }
 
-  .projects-section {
+  .projectos-section {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px 20px;
     padding: 20px;
   }
 
-  .project-card {
+  .projectos-card {
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 20px 0;
+    max-width: 1200px;
+    border-radius: 50px;
+    padding: 20px ;
+    margin: 20px 20px;
     display: flex;
     gap: 30px;
     align-items: center;
   }
 
-  .project-info {
+  .projectos-info {
     flex: 1;
   }
 
-  .project-info h2 {
+  .projectos-info h2 {
     color: #FFFFFF;
     font-size: 2em;
     margin-bottom: 15px;
   }
 
-  .project-info p {
+  .projectos-info p {
     color: #BDC3C7;
     font-size: 1.1em;
     line-height: 1.6;
   }
 
-  .project-image {
+  .projectos-imagen {
     flex: 1;
     max-width: 500px;
     border-radius: 15px;
     overflow: hidden;
   }
 
-  .project-image img {
-    width: 100%;
+  .projectos-imagen img {
+    width: 40%;
     height: auto;
     display: block;
+    border-radius: 20px;
   }
 
   .contacto-seccion {
@@ -153,7 +155,7 @@
     margin: 40px auto;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    border-radius: 50px;
     text-align: center;
   }
 
@@ -216,12 +218,12 @@
       min-width: auto;
     }
 
-    .project-card {
+    .projecto-card {
       flex-direction: column;
     }
 
-    .project-image {
-      max-width: 100%;
+    .projecto-imagen {
+      width: 100%;
     }
 
     .contacto-enlaces {
