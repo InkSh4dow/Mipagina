@@ -148,6 +148,51 @@
     display: block;
   }
 
+  .contacto-seccion {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .contacto-seccion h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .contacto-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .contacto-enlace {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .contacto-enlace:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .menu-enlace {
+    text-decoration: none;
+    color: #000;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   @media (max-width: 1024px) {
     .intro {
       flex-direction: column;
@@ -177,5 +222,10 @@
 
     .project-image {
       max-width: 100%;
+    }
+
+    .contacto-enlaces {
+      flex-direction: column;
+      align-items: center;
     }
   }
